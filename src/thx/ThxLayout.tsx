@@ -13,15 +13,15 @@ export const ThxLayout = () => {
       <div className={thxSt.container}>
         <img src={sparkles} width={80} height={80} className={thxSt.rocket} />
         <Typography.TitleResponsive style={{ margin: '24px 0 12px' }} font="system" tag="h1" view="small" weight="medium">
-          Не удалось выставить заявку
+          Сервис пока недоступен
         </Typography.TitleResponsive>
         <Typography.Text tag="p" view="primary-medium" defaultMargins={false}>
-          Попробуй еще раз
+          Вся команда очень старается — скоро всё заработает!
         </Typography.Text>
       </div>
       <div className={appSt.bottomBtn}>
         <ButtonMobile block view="secondary" href={link}>
-          Попробовать еще раз
+          Спасибо, понятно!
         </ButtonMobile>
       </div>
     </>
